@@ -1,0 +1,29 @@
+{
+  "name": "iot",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "devStart": "nodemon server",
+    "start": "node server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.1",
+    "config": "^3.3.9",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "express-ejs-layouts": "^2.5.1",
+    "express-validator": "^6.15.0",
+    "gravatar": "^1.8.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.9.0",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "description": ""
+}
